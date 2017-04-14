@@ -9,12 +9,19 @@ div {
     margin-right: 150px;
     margin-left: 80px;
 }
+a {
+	text-decoration: none; <!--removes things like underlined-->
+}
+a:hover {
+	background-color: yellow;
+}
 #desc {
 	border: 1px solid black;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-right: 420px;
     margin-left: 0px;
+	width: 50%;
 }
 </style>
 <title>Pretty Good</title>
@@ -30,8 +37,8 @@ div {
   </div>
   </header>
   <main>
-<p>This is a paragraph. Within this paragraph <br>is a <a href="https://forlornhub.github.io">link.</a></p>
-<iframe width="420" height="345" 
+<p>This is a paragraph. Within this paragraph <br>is a <a href="index.html">link.</a></p>
+<iframe width="50%" height="345" <!--old width: 420-->
 src="https://www.youtube.com/embed/ZZ5LpwO-An4">
 </iframe>
 <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
